@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:dev": "nodemon bin/runApi.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-redis": "^5.2.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pg": "^8.6.0",
+    "pg-pool": "^3.3.0",
+    "redis": "^3.1.2"
+  }
+}
